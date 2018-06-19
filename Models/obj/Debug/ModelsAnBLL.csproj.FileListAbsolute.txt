@@ -1,0 +1,16 @@
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\Models.dll
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\Models.pdb
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\BasicTools.dll
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\BLL.dll
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\DLL.dll
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\FindWords.dll
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\BLL.pdb
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\BasicTools.pdb
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\DLL.pdb
+D:\CSharp\WebProject\WebGA\Models\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp\WebProject\WebGA\Models\obj\Debug\Models.dll
+D:\CSharp\WebProject\WebGA\Models\obj\Debug\Models.pdb
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\AipSdk.dll
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\Newtonsoft.Json.dll
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\AipSdk.pdb
+D:\CSharp\WebProject\WebGA\Models\bin\Debug\AipSdk.xml

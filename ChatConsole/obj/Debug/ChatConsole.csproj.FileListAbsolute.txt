@@ -1,0 +1,10 @@
+C:\Users\Administrator.000\Desktop\WebGA\ChatConsole\bin\Debug\ChatConsole.exe
+C:\Users\Administrator.000\Desktop\WebGA\ChatConsole\bin\Debug\ChatConsole.pdb
+C:\Users\Administrator.000\Desktop\WebGA\ChatConsole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Desktop\WebGA\ChatConsole\obj\Debug\ChatConsole.exe
+C:\Users\Administrator.000\Desktop\WebGA\ChatConsole\obj\Debug\ChatConsole.pdb
+D:\CSharp\WebProject\WebGA\ChatConsole\bin\Debug\ChatConsole.exe
+D:\CSharp\WebProject\WebGA\ChatConsole\bin\Debug\ChatConsole.pdb
+D:\CSharp\WebProject\WebGA\ChatConsole\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp\WebProject\WebGA\ChatConsole\obj\Debug\ChatConsole.exe
+D:\CSharp\WebProject\WebGA\ChatConsole\obj\Debug\ChatConsole.pdb

@@ -1,0 +1,66 @@
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\WebGA.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\WebGA.pdb
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\BLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\BLL.pdb
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\obj\Debug\WebGA.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\obj\Debug\WebGA.pdb
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\Models.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\DLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\Models.pdb
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\WebGA\bin\DLL.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\WebGA.dll
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\WebGA.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\BLL.dll
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\Models.dll
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\DLL.dll
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\Models.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\BLL.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\bin\DLL.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\obj\Debug\WebGA.dll
+C:\Documents and Settings\User\桌面\project\WebGA\WebGA\obj\Debug\WebGA.pdb
+E:\WebGA\WebGA\bin\WebGA.dll
+E:\WebGA\WebGA\bin\WebGA.pdb
+E:\WebGA\WebGA\bin\BLL.dll
+E:\WebGA\WebGA\bin\Models.dll
+E:\WebGA\WebGA\bin\DLL.dll
+E:\WebGA\WebGA\bin\Models.pdb
+E:\WebGA\WebGA\bin\BLL.pdb
+E:\WebGA\WebGA\bin\DLL.pdb
+E:\WebGA\WebGA\obj\Debug\ResolveAssemblyReference.cache
+E:\WebGA\WebGA\obj\Debug\WebGA.dll
+E:\WebGA\WebGA\obj\Debug\WebGA.pdb
+E:\WebGA\WebGA\bin\BasicTools.dll
+E:\WebGA\WebGA\bin\BasicTools.pdb
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\WebGA.dll
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\WebGA.pdb
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\BasicTools.dll
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\BLL.dll
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\Models.dll
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\DLL.dll
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\BLL.pdb
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\DLL.pdb
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\Models.pdb
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\bin\BasicTools.pdb
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\obj\Debug\WebGA.dll
+C:\Users\Administrator.000\Desktop\WebGA\WebGA\obj\Debug\WebGA.pdb
+D:\CSharp\WebProject\WebGA\WebGA\bin\WebGA.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\WebGA.pdb
+D:\CSharp\WebProject\WebGA\WebGA\bin\BasicTools.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\BLL.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\Models.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\DLL.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\BLL.pdb
+D:\CSharp\WebProject\WebGA\WebGA\bin\DLL.pdb
+D:\CSharp\WebProject\WebGA\WebGA\bin\Models.pdb
+D:\CSharp\WebProject\WebGA\WebGA\bin\BasicTools.pdb
+D:\CSharp\WebProject\WebGA\WebGA\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp\WebProject\WebGA\WebGA\obj\Debug\WebGA.dll
+D:\CSharp\WebProject\WebGA\WebGA\obj\Debug\WebGA.pdb
+D:\CSharp\WebProject\WebGA\WebGA\bin\FindWords.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\Newtonsoft.Json.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\AipSdk.dll
+D:\CSharp\WebProject\WebGA\WebGA\bin\AipSdk.pdb
+D:\CSharp\WebProject\WebGA\WebGA\bin\AipSdk.xml

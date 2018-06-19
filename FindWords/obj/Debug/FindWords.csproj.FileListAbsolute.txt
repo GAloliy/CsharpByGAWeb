@@ -1,0 +1,5 @@
+D:\CSharp\WebProject\WebGA\FindWords\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp\WebProject\WebGA\FindWords\bin\Debug\FindWords.dll
+D:\CSharp\WebProject\WebGA\FindWords\bin\Debug\FindWords.pdb
+D:\CSharp\WebProject\WebGA\FindWords\obj\Debug\FindWords.dll
+D:\CSharp\WebProject\WebGA\FindWords\obj\Debug\FindWords.pdb

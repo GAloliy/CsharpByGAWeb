@@ -1,0 +1,36 @@
+遇到问题时间: 0:53 2018/5/26 
+
+SqlDBHelper 出现InvalidOpertionException(内部连接致命错误)
+
+问题分析&检查步骤:
+GetDataTable(),sda.Fill()此处出错.
+(重启程序不会再报错)
+
+1.检查连接是否过多.
+2.注意连接已关闭的错误,保证原来还没读取完的数据,继续读取.线程安全问题。
+3.主要检查GetDataTable(string sql):DataTable 方法
+
+解决方案:
+结果分析，2 的可能性比较大,因为我的项目这个DataTables方法并发访问量较大，单个任务操作(获取数据)时间较长。连接数过多的时候就出现InvalidOpertionException错误。重启程序不会报错,应该是.net的机制问题。
+知道哪里有问题那就好办了,我们对GetDataTable(string sql):DataTable方法进行线程锁,这样就不会出现上述问题。类型问题也可以这样解决。
+
+代码：
+       private static readonly object olock = new object();
+       public static DataTable GetDataTable(string sql)
+        {
+            lock (olock)
+            {
+                SqlDataAdapter sda = new SqlDataAdapter(sql, connection);
+                DataTable dt = new DataTable();
+                sda.Fill(dt);
+                sda.Dispose();
+                return dt;
+            }
+        }	 
+
+
+
+博客：https://www.cnblogs.com/galoliy/p/csharperrorq_lock.html
+
+
+修复了日志不能正常运行的BUG;18- 6-4

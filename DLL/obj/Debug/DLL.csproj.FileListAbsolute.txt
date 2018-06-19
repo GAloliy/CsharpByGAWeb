@@ -1,0 +1,5 @@
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\bin\Debug\DLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\bin\Debug\DLL.pdb
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\obj\Debug\DLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\obj\Debug\DLL.pdb

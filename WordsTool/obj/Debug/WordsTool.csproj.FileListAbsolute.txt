@@ -1,0 +1,5 @@
+D:\CSharp\WebProject\WebGA\WordsTool\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp\WebProject\WebGA\WordsTool\bin\Debug\WordsTool.dll
+D:\CSharp\WebProject\WebGA\WordsTool\bin\Debug\WordsTool.pdb
+D:\CSharp\WebProject\WebGA\WordsTool\obj\Debug\WordsTool.dll
+D:\CSharp\WebProject\WebGA\WordsTool\obj\Debug\WordsTool.pdb

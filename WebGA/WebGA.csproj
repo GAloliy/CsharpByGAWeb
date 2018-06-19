@@ -1,0 +1,378 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{94B4A81E-9DFB-4E66-8C8A-9916594F7ABF}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebGA</RootNamespace>
+    <AssemblyName>WebGA</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AipSdk, Version=3.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\examp\Desktop\aip-csharp-sdk-3.5.1\net35\AipSdk.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\examp\Desktop\aip-csharp-sdk-3.5.1\net35\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\Login_styles.css" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="Content\js\Login_ConsoleJS.js" />
+    <Content Include="WebPage\Membership\UserLogin.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controls\Tools\FaceReconitionJsonResolve.cs" />
+    <Compile Include="Controls\Tools\MeassageBoradHelper.cs" />
+    <Compile Include="Controls\Tools\Modle\FRJsonResolve.cs" />
+    <Compile Include="Controls\Tools\WebPageControls.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WebPage\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\ChatRoom\Chat.aspx.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\ChatRoom\Chat.aspx.designer.cs">
+      <DependentUpon>Chat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\FaceRecognition\FaceReconition.aspx.cs">
+      <DependentUpon>FaceReconition.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\FaceRecognition\FaceReconition.aspx.designer.cs">
+      <DependentUpon>FaceReconition.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\Main.aspx.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\Main.aspx.designer.cs">
+      <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\MassageBoard\MassageBoard.aspx.cs">
+      <DependentUpon>MassageBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\MassageBoard\MassageBoard.aspx.designer.cs">
+      <DependentUpon>MassageBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\Membership\LogOut.aspx.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\Membership\LogOut.aspx.designer.cs">
+      <DependentUpon>LogOut.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\Membership\PersonalInfo.aspx.cs">
+      <DependentUpon>PersonalInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\Membership\PersonalInfo.aspx.designer.cs">
+      <DependentUpon>PersonalInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\Membership\UserLogin.aspx.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\Membership\UserLogin.aspx.designer.cs">
+      <DependentUpon>UserLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\Template\Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\Template\Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\Template\MenuBarControl.ascx.cs">
+      <DependentUpon>MenuBarControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\Template\MenuBarControl.ascx.designer.cs">
+      <DependentUpon>MenuBarControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\Tools\CookieHelper.cs" />
+    <Compile Include="Controls\Tools\WebPageHelper.cs">
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\ProgrammingSociety.aspx.cs">
+      <DependentUpon>ProgrammingSociety.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\ProgrammingSociety.aspx.designer.cs">
+      <DependentUpon>ProgrammingSociety.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\Template\MenuBarControl.ascx.cs">
+      <DependentUpon>MenuBarControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\Template\MenuBarControl.ascx.designer.cs">
+      <DependentUpon>MenuBarControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\Template\PSPManager.Master.cs">
+      <DependentUpon>PSPManager.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\Template\PSPManager.Master.designer.cs">
+      <DependentUpon>PSPManager.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\Template\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\ProgrammingSociety\Template\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\Template\MenuBarRelativePath.ascx.cs">
+      <DependentUpon>MenuBarRelativePath.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\Template\MenuBarRelativePath.ascx.designer.cs">
+      <DependentUpon>MenuBarRelativePath.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\TrueMain.aspx.cs">
+      <DependentUpon>TrueMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\TrueMain.aspx.designer.cs">
+      <DependentUpon>TrueMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\CodeHelper\OperatingHelper.cs" />
+    <Compile Include="WebPage\UploadFile\CommentManagement.aspx.cs">
+      <DependentUpon>CommentManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\CommentManagement.aspx.designer.cs">
+      <DependentUpon>CommentManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\MembershipManagement.aspx.cs">
+      <DependentUpon>MembershipManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\MembershipManagement.aspx.designer.cs">
+      <DependentUpon>MembershipManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\Template\UpFile.ascx.cs">
+      <DependentUpon>UpFile.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\Template\UpFile.ascx.designer.cs">
+      <DependentUpon>UpFile.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\Template\UpFile.Master.cs">
+      <DependentUpon>UpFile.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\Template\UpFile.Master.designer.cs">
+      <DependentUpon>UpFile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\UploadFile.aspx.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebPage\UploadFile\UploadFile.aspx.designer.cs">
+      <DependentUpon>UploadFile.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\css\bootstrap-grid.css.map" />
+    <None Include="Content\css\bootstrap-grid.min.css.map" />
+    <None Include="Content\css\bootstrap-reboot.css.map" />
+    <None Include="Content\css\bootstrap-reboot.min.css.map" />
+    <None Include="Content\css\bootstrap.css.map" />
+    <None Include="Content\css\bootstrap.min.css.map" />
+    <None Include="Content\fonts\fontawesome-webfont.eot" />
+    <None Include="Content\fonts\fontawesome-webfont.ttf" />
+    <None Include="Content\fonts\fontawesome-webfont.woff" />
+    <None Include="Content\fonts\fontawesome-webfont.woff2" />
+    <None Include="Content\fonts\FontAwesome.otf" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Content\js\bootstrap.bundle.js.map" />
+    <None Include="Content\js\bootstrap.bundle.min.js.map" />
+    <None Include="Content\js\bootstrap.js.map" />
+    <None Include="Content\js\bootstrap.min.js.map" />
+    <None Include="Content\js\jquery-3.3.1.min.map" />
+    <Content Include="Content\css\EP_style.css" />
+    <Content Include="Content\js\jquery.easing.js" />
+    <Content Include="errorpage.html" />
+    <Content Include="errorpage404.html" />
+    <Content Include="images\avatar_default.jpg" />
+    <Content Include="images\errorbg.jpg" />
+    <Content Include="images\haixiao.png" />
+    <Content Include="images\haixiao1.jpg" />
+    <Content Include="images\haixiao2.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="index.html" />
+    <Content Include="WebPage\About.aspx" />
+    <Content Include="WebPage\FaceRecognition\FaceReconition.aspx" />
+    <Content Include="WebPage\logo.html" />
+    <Content Include="WebPage\Main.aspx" />
+    <Content Include="WebPage\MassageBoard\MassageBoard.aspx" />
+    <Content Include="WebPage\Membership\LogOut.aspx" />
+    <Content Include="WebPage\Membership\Resources\css\ModifyPassword.css" />
+    <Content Include="WebPage\Membership\Resources\js\ModifyPassword.js" />
+    <Content Include="WebPage\Resources\css\logo.css" />
+    <Content Include="WebPage\Resources\js\FaceReconition.js" />
+    <Content Include="WebPage\Resources\js\ManagementMain.js" />
+    <Content Include="WebPage\Resources\js\MessgeBoardMain.js" />
+    <Content Include="WebPage\Template\Main.Master" />
+    <Content Include="Content\css\fileinput.css" />
+    <Content Include="Content\css\fileinput.min.css" />
+    <Content Include="Content\js\fileinput.js" />
+    <Content Include="Content\js\fileinput.min.js" />
+    <Content Include="Content\js\zh.js" />
+    <Content Include="Global.asax" />
+    <Content Include="WebPage\Membership\PersonalInfo.aspx" />
+    <Content Include="WebPage\Membership\Resources\image\1.jpg" />
+    <Content Include="WebPage\Membership\Resources\image\2.jpg" />
+    <Content Include="WebPage\Membership\Resources\image\3.jpg" />
+    <Content Include="WebPage\Template\MenuBarRelativePath.ascx" />
+    <Content Include="WebPage\TrueMain.aspx" />
+    <Content Include="WebPage\UploadFile\CommentManagement.aspx" />
+    <Content Include="WebPage\UploadFile\MembershipManagement.aspx" />
+    <Content Include="WebPage\UploadFile\Resources\Image\dirIcio.JPG" />
+    <Content Include="WebPage\UploadFile\Template\UpFile.Master" />
+    <Content Include="Content\css\bootstrap-grid.css" />
+    <Content Include="Content\css\bootstrap-grid.min.css" />
+    <Content Include="Content\css\bootstrap-reboot.css" />
+    <Content Include="Content\css\bootstrap-reboot.min.css" />
+    <Content Include="Content\js\bootstrap.bundle.js" />
+    <Content Include="Content\js\bootstrap.bundle.min.js" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="WebPage\ChatRoom\Chat.aspx" />
+    <Content Include="WebPage\ProgrammingSociety\Template\HTMLPage.htm" />
+    <Content Include="WebPage\ProgrammingSociety\Template\PSPManager.Master" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\font-awesome.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\PSP_animate.min.css" />
+    <Content Include="Content\css\PSP_bicolor.min.css" />
+    <Content Include="Content\css\PSP_style.css" />
+    <Content Include="Content\fonts\fontawesome-webfont.svg" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\js\jquery.1.10.2.min.js" />
+    <Content Include="Content\js\npm.js" />
+    <Content Include="Content\js\jquery-3.3.1.min.js" />
+    <Content Include="Content\js\PSP_main.js" />
+    <Content Include="Content\js\PSP_options.js" />
+    <Content Include="Content\js\PSP_vendor.js" />
+    <Content Include="images\apple-touch-icon-114x114.png" />
+    <Content Include="images\apple-touch-icon-72x72.png" />
+    <Content Include="images\apple-touch-icon.png" />
+    <Content Include="images\favicon.png" />
+    <Content Include="images\PCerweima.png" />
+    <Content Include="WebPage\Template\MenuBarControl.ascx" />
+    <Content Include="WebPage\ProgrammingSociety\Portal.html" />
+    <Content Include="WebPage\ProgrammingSociety\ProgrammingSociety.aspx" />
+    <Content Include="WebPage\ProgrammingSociety\Template\MenuBarControl.ascx" />
+    <Content Include="WebPage\ProgrammingSociety\Template\WebForm1.aspx" />
+    <Content Include="WebPage\UploadFile\Template\UpFile.ascx" />
+    <Content Include="WebPage\UploadFile\UploadFile.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BasicTools\BasicTools.csproj">
+      <Project>{63CF870E-346A-4A4C-8C31-AA562BCB55A7}</Project>
+      <Name>BasicTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{271A1774-44DC-491E-A745-00C8F32EF6DF}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Models\ModelsAnBLL.csproj">
+      <Project>{A5C917FD-AF0B-4231-B49A-9F2A04853173}</Project>
+      <Name>ModelsAnBLL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="DatePicker\" />
+    <Folder Include="WebPage\UploadFile\FileSpace\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>65290</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,25 @@
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\bin\Debug\DLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\bin\Debug\DLL.pdb
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\obj\Debug\DLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\DLL\obj\Debug\DLL.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\DLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\桌面\project\WebGA\DLL\obj\Debug\DLL.dll
+C:\Documents and Settings\User\桌面\project\WebGA\DLL\obj\Debug\DLL.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\DLL\bin\Debug\DLL.dll
+C:\Documents and Settings\User\桌面\project\WebGA\DLL\bin\Debug\DLL.pdb
+E:\WebGA\DLL\bin\Debug\DLL.dll
+E:\WebGA\DLL\bin\Debug\DLL.pdb
+E:\WebGA\DLL\obj\Debug\ResolveAssemblyReference.cache
+E:\WebGA\DLL\obj\Debug\DLL.dll
+E:\WebGA\DLL\obj\Debug\DLL.pdb
+C:\Users\Administrator.000\Desktop\WebGA\DLL\bin\Debug\DLL.dll
+C:\Users\Administrator.000\Desktop\WebGA\DLL\bin\Debug\DLL.pdb
+C:\Users\Administrator.000\Desktop\WebGA\DLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Desktop\WebGA\DLL\obj\Debug\DLL.dll
+C:\Users\Administrator.000\Desktop\WebGA\DLL\obj\Debug\DLL.pdb
+D:\CSharp\WebProject\WebGA\DLL\bin\Debug\DLL.dll
+D:\CSharp\WebProject\WebGA\DLL\bin\Debug\DLL.pdb
+D:\CSharp\WebProject\WebGA\DLL\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp\WebProject\WebGA\DLL\obj\Debug\DLL.dll
+D:\CSharp\WebProject\WebGA\DLL\obj\Debug\DLL.pdb

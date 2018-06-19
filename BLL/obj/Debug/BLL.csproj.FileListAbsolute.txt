@@ -1,0 +1,25 @@
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator.000\Documents\Visual Studio 2008\Projects\WebGA\BLL\obj\Debug\BLL.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\BLL\bin\Debug\BLL.dll
+C:\Documents and Settings\User\桌面\project\WebGA\BLL\bin\Debug\BLL.pdb
+C:\Documents and Settings\User\桌面\project\WebGA\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\User\桌面\project\WebGA\BLL\obj\Debug\BLL.dll
+C:\Documents and Settings\User\桌面\project\WebGA\BLL\obj\Debug\BLL.pdb
+E:\WebGA\BLL\bin\Debug\BLL.dll
+E:\WebGA\BLL\bin\Debug\BLL.pdb
+E:\WebGA\BLL\obj\Debug\ResolveAssemblyReference.cache
+E:\WebGA\BLL\obj\Debug\BLL.dll
+E:\WebGA\BLL\obj\Debug\BLL.pdb
+C:\Users\Administrator.000\Desktop\WebGA\BLL\bin\Debug\BLL.dll
+C:\Users\Administrator.000\Desktop\WebGA\BLL\bin\Debug\BLL.pdb
+C:\Users\Administrator.000\Desktop\WebGA\BLL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator.000\Desktop\WebGA\BLL\obj\Debug\BLL.dll
+C:\Users\Administrator.000\Desktop\WebGA\BLL\obj\Debug\BLL.pdb
+D:\CSharp\WebProject\WebGA\BLL\bin\Debug\BLL.dll
+D:\CSharp\WebProject\WebGA\BLL\bin\Debug\BLL.pdb
+D:\CSharp\WebProject\WebGA\BLL\obj\Debug\ResolveAssemblyReference.cache
+D:\CSharp\WebProject\WebGA\BLL\obj\Debug\BLL.dll
+D:\CSharp\WebProject\WebGA\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="WebGA.WebPage.Template.Main" %>
+<%@ Register Src="~/WebPage/Template/MenuBarControl.ascx" TagName="Bar" TagPrefix="barascx" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+
+    <script type="text/javascript" src="../../Content/js/jquery-3.3.1.min.js"></script>
+    <link href ="../../Content/css/bootstrap.min.css"  rel="Stylesheet" type="text/css" />
+    <link href="../../Content/css/font-awesome.min.css" rel="Stylesheet" type="text/css" />
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin-top:85px">
+    <barascx:Bar ID="menubar" runat="server"/>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+<script type="text/javascript" src="../../Content/js/bootstrap.min.js"></script>
+</body>
+</html>
